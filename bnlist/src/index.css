@@ -175,3 +175,20 @@ body{
   background-color: hsl(325, 100%, 50%, 0.5);
   cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+  .todo_container{
+    margin-top: 30%;
+    width: 90%;
+  }
+  .todo_container .form_container{
+    width: 90%;
+  }
+  .todo_container .form_container input[type="text"]{
+
+    width: 69%;
+  }
+  .todo_container .update_form_container input[type="text"]{
+    width: 60%;
+  }
+}
